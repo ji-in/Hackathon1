@@ -1,5 +1,7 @@
 # 제 1회 아몰랑 해커톤
 
+<img src=".\hackathon.png" style="zoom:30%;" />
+
 ## 1. 프로그램 기획 의도
 
 
