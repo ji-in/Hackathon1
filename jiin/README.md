@@ -4,7 +4,7 @@
 
 ## 1. 데이터셋 수집하기
 
-[이미지 데이터를 크롤링하기 위해 사용한 코드]()
+[이미지 데이터를 크롤링하기 위해 사용한 코드](https://github.com/ji-in/Hackathon1/blob/main/jiin/crawling.py)
 
 ## 2. 데이터셋 전처리 하기
 
