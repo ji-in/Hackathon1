@@ -8,11 +8,13 @@
 
 ## 2. 데이터셋 전처리 하기
 
-1. 눈으로 확인해서 원하는 이미지가 아닌 것은 제외시키기
-2. 얼굴만 crop 하기
-   - dlib 또는 opencv를 사용해서 crop 하기
+1. 눈으로 확인해서 원하는 이미지가 아닌 것은 제외시키기 -> 완료
+2. 얼굴만 crop 하기 -> [얼굴만 검출해서 crop하기 위해 사용한 코드]()
+   - dlib 또는 opencv를 사용해서 crop 하기 -> 완료
    - Reference : [ref1](https://m.blog.naver.com/PostView.naver?blogId=dic1224&logNo=221073987368&proxyReferer=https:%2F%2Fwww.google.com%2F), [ref2](https://jngmk.netlify.app/dev/python/2020-03-19-face-recognition-with-openCV-and-dlib), [ref3](https://jjeamin.github.io/posts/FaceNet/)
-3. Training dataset, validation dataset, test dataset 60:20:20 으로 나누기
+3. 마지막으로 눈으로 한번 더 이미지 거르기
+4. 이미지 크기 통일시키기
+5. Training dataset, validation dataset, test dataset 60:20:20 으로 나누기
 
 ## 3. 전이학습시 사용할 모델 선택하기
 
@@ -49,4 +51,10 @@
 [Reference1](https://tutorials.pytorch.kr/beginner/transfer_learning_tutorial.html)
 
 [Reference2](https://codetorial.net/tensorflow/transfer_learning.html)
+
+## 8. 프로젝트 하면서 추가적으로 알게된 것
+
+[파이참 가상환경 만들기](https://bskyvision.com/946)
+
+[이미지 여러개 로드하기 - 답변 #4](https://www.python2.net/questions-57830.htm)
 
