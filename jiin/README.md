@@ -9,7 +9,7 @@
 ## 2. 데이터셋 전처리 하기
 
 1. 눈으로 확인해서 원하는 이미지가 아닌 것은 제외시키기 -> 완료
-2. 얼굴만 crop 하기 -> [얼굴만 검출해서 crop하기 위해 사용한 코드]()
+2. 얼굴만 crop 하기 -> [얼굴만 검출해서 crop하기 위해 사용한 코드](https://github.com/ji-in/Hackathon1/blob/main/jiin/crop.py)
    - dlib 또는 opencv를 사용해서 crop 하기 -> 완료
    - Reference : [ref1](https://m.blog.naver.com/PostView.naver?blogId=dic1224&logNo=221073987368&proxyReferer=https:%2F%2Fwww.google.com%2F), [ref2](https://jngmk.netlify.app/dev/python/2020-03-19-face-recognition-with-openCV-and-dlib), [ref3](https://jjeamin.github.io/posts/FaceNet/)
 3. 마지막으로 눈으로 한번 더 이미지 거르기
