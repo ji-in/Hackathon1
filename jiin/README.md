@@ -6,17 +6,24 @@
 
 [이미지 데이터를 크롤링하기 위해 사용한 코드](https://github.com/ji-in/Hackathon1/blob/main/jiin/crawling.py)
 
-[크롤링하기 위해 사용한 코드 crawler.py 코드 설명]()
+[크롤링하기 위해 사용한 코드 crawler.py 코드 설명](https://github.com/ji-in/Hackathon1/blob/main/jiin/crawler_review.md)
 
 ## 2. 데이터셋 전처리 하기
 
-1. 눈으로 확인해서 원하는 이미지가 아닌 것은 제외시키기 -> 완료
-2. 얼굴만 crop 하기 -> [얼굴만 검출해서 crop하기 위해 사용한 코드](https://github.com/ji-in/Hackathon1/blob/main/jiin/crop.py)
-   - dlib 또는 opencv를 사용해서 crop 하기 -> 완료
+1. 눈으로 확인해서 원하는 이미지가 아닌 것은 제외시키기
+
+2. 얼굴만 crop 하기
+
+   [얼굴만 검출해서 crop하기 위해 사용한 코드](https://github.com/ji-in/Hackathon1/blob/main/jiin/crop.py)
+
+   [크롭하기 위해 사용한 crop.py 코드 설명]()
+
+   - dlib 또는 opencv를 사용해서 crop 하기
    - Reference : [ref1](https://m.blog.naver.com/PostView.naver?blogId=dic1224&logNo=221073987368&proxyReferer=https:%2F%2Fwww.google.com%2F), [ref2](https://jngmk.netlify.app/dev/python/2020-03-19-face-recognition-with-openCV-and-dlib), [ref3](https://jjeamin.github.io/posts/FaceNet/)
+
 3. 마지막으로 눈으로 한번 더 이미지 거르기
-4. 이미지 크기 통일시키기
-5. Training dataset, validation dataset, test dataset 60:20:20 으로 나누기
+
+4. Training dataset, validation dataset, test dataset 8:1:1로 나누기
 
 ## 3. 전이학습시 사용할 모델 선택하기
 
@@ -50,7 +57,7 @@
 
 <img src=".\test.png" style="zoom:72%;" />
 
-꽤 잘 맞추는 것을 볼 수 있다.
+꽤 잘 맞추는 것을 볼 수 있다. (근데, 데이터를 잘못 수집했나... 2행 1열 이미지 배두훈같이 안생겼다...)
 
 ## 7. Reference
 
