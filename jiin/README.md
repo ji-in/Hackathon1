@@ -16,7 +16,7 @@
 
    [얼굴만 검출해서 crop하기 위해 사용한 코드](https://github.com/ji-in/Hackathon1/blob/main/jiin/crop.py)
 
-   [크롭하기 위해 사용한 crop.py 코드 설명]()
+   [크롭하기 위해 사용한 crop.py 코드 설명](https://github.com/ji-in/Hackathon1/blob/jiin/jiin/crop_review.md)
 
    - dlib 또는 opencv를 사용해서 crop 하기
    - Reference : [ref1](https://m.blog.naver.com/PostView.naver?blogId=dic1224&logNo=221073987368&proxyReferer=https:%2F%2Fwww.google.com%2F), [ref2](https://jngmk.netlify.app/dev/python/2020-03-19-face-recognition-with-openCV-and-dlib), [ref3](https://jjeamin.github.io/posts/FaceNet/)
