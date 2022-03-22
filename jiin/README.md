@@ -48,15 +48,13 @@
 
 ## 5. Training 하기
 
-[Train 코드 설명]()
+[Train 코드 설명](https://github.com/ji-in/Hackathon1/blob/main/jiin/code_review.md)
 
 ## 6. Test 하기
 
 <img src=".\test.png" style="zoom:72%;" />
 
 꽤 잘 맞추는 것을 볼 수 있다. (근데, 데이터를 잘못 수집했나... 2행 1열 이미지 배두훈같이 안생겼다...)
-
-[Test 코드 설명]()
 
 ## 7. Reference
 
